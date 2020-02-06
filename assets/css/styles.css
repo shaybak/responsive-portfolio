@@ -328,17 +328,16 @@ MEDIA QUERIES
 
 @media (max-width: 768px) {
 
-  /* .container1 {
-    width: 100%;
-    position: relative;
-    display: block;
-  } */
+  .container1 {
+    margin: 0
+  }
+
   h1 {
     font-size: 1.5em;
   }
 
   .content {
-    margin: 15% auto;
+    margin: 5% auto;
     width: 90%;
     position: relative;
   }
@@ -464,10 +463,11 @@ MEDIA QUERIES
     width: 100%;
     position: relative;
     display: block;
+    margin: 0
   }
 
   .content {
-    margin: 15% auto;
+    margin: 5% auto;
     width: 90%;
     position: relative;
   }
