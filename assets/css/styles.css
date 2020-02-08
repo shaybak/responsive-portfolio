@@ -554,7 +554,8 @@ MEDIA QUERIES
   }
 
   .portfolio-container {
-    display: block
+    display: block;
+    position: relative;
   }
 
   .portfolio-img {
